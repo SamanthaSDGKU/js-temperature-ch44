@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/practice.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>JavaScript</h1>
+    <header class="site-header">
 
-    <script src="./scripts/practice.js"></script>
+        <h1>My first JS code</h1> <p id="notifications">the notifications</p>
+    </header>
+    <!--step2-->
+    <!-- <button onclick="sum();">Sum</button>
+    <button onclick="subs();">Subs</button>
+
+    <h2>Results</h2>
+    
+    <div id="results">
+
+    </div> -->
+    <div class="login">
+        <input type="email" placeholder="Enter your username" id="txtUserName">
+        <input type="password" placeholder="Enter your password" id="txtPassword">
+    
+        <button onclick="login();">Login</button>
+    </div>
+
+    <div>
+        <h2>Students</h2>
+        <!-- add a value (input) and display the value-->
+        <input type="text" id="txtStudent" placeholder="add a new student">
+        <button onclick="register();">Add</button>
+
+        <ul id="studentsList">
+
+        </ul>
+    </div>
+
+    <script src="./scripts/practice3.js"></script>
 </body>
 </html>
